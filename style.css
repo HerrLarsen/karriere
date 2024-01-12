@@ -1,0 +1,106 @@
+/* Shortcode: [jobs_single] */
+
+.jobs-single__wrapper {
+
+}
+
+.jobs-single__layout {
+
+}
+
+.jobs-single__headline {
+
+}
+
+.jobs-single__headline h3 {
+
+}
+
+.jobs-single__text {
+
+}
+
+.jobs-single__image {
+	
+}
+
+/* Shortcode: [jobs_overview] */
+
+.jobs-listing__wrapper {
+
+}
+
+.jobs-listing__section {
+	margin-bottom: 40px;
+}
+
+.jobs-listing__headline {
+	
+}
+
+.jobs-listing__headline h3 {
+	
+}
+
+.jobs-listing__headline h3 span {
+
+}
+
+.jobs-listing__subline {
+	
+}
+
+.jobs-listing__item {
+	padding: 10px;
+	border: 1px solid #000000;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.jobs-listing__image {
+	margin-right: 20px;
+}
+
+.jobs-listing__image img {
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	vertical-align: bottom;
+	max-width: 80px;
+}
+
+.jobs-listing__image--placeholder {
+	 aspect-ratio: 1/1;
+	 object-fit: cover;
+	 width: 80px;
+	 border: 1px solid #dddddd;
+}
+
+.jobs-listing__item {
+	position: relative;
+	transition: all .3s ease-in-out;
+}
+
+.jobs-listing__item:hover,
+.jobs-listing__item:focus-within {
+	background-color: #efefef;
+}
+
+.jobs-listing__item a::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+  cursor: pointer;
+}
+
+.jobs-listing__item:focus-within {
+	box-shadow: 0 0 0 1px var(--accent);
+
+}
+
+.jobs-listing__item:focus-within :focus {
+	box-shadow: none;
+	outline: none;
+}
